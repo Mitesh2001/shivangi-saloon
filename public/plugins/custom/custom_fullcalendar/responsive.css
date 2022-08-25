@@ -1,0 +1,47 @@
+
+.fc-button {
+    /* color: #fff !important;
+    background-color: #3699ff !important;
+    border-color: #3699ff !important; */
+}
+
+@media only screen and (max-width: 768px) { 
+    /* .fc-view {
+        overflow: auto !important;
+    } 
+    .fc-border-separate {
+        width: auto !important;
+    } */
+    /* .fc-day-header {
+        width: 142px !important;
+    } */
+
+    /* .fc td, .fc th { 
+        min-width: 142px !important;
+    }
+
+    .fc-header tr {
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+    .fc-header tr td {
+        text-align: left !important;
+    } */
+
+    .fc-header-toolbar {
+        display: flex !important;
+        flex-direction: column !important; 
+        align-items: start !important;
+        margin-left: 10px !important;
+    }
+
+    .fc-dayGridMonth-view .fc-scrollgrid-liquid {
+        width:  980px !important;
+    }
+
+    .fc-dayGridMonth-view {
+        overflow-x: auto !important;
+    }
+}

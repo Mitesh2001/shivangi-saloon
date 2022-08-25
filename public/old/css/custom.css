@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Poppins,Helvetica,"sans-serif";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #fff;
+}
+.brand-logo img {
+    max-width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 135px;
+}
+.brand .brand-logo {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+margin-top: 8px;
+}
+.brand {
+	height:auto;
+}
+.leftside_box {
+    width: 600px;
+    height: 100vh;
+    float: left;
+    box-sizing: border-box;
+    padding:0 30px;
+    background: url("../media/logos/left_bg.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: table-cell;
+	position: fixed;
+}
+.leftside_box:before { content: ''; position: absolute; left: 0; top: 0; bottom: 0;  width: 100%; height: 100%; background: transparent linear-gradient(143deg, #EE4146 0%, #772123 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 0.92;}
+.leftside_box_inn { height: 100vh;
+    display: table-cell;
+    vertical-align: middle; position: relative; z-index: 999; padding: 0 50px; }
+.loging_head {
+    display: block;
+    font-size: 36px;
+	line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+	text-transform: capitalize;
+    color: #fff;
+}
+.login_text {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+.login-signin-on { background: #F1F1F1; }
+.form-control.form-control-solid {
+    background-color: #f7f7f7 !important;
+    color: #383838 !important;
+    transition: color .15s ease,background-color .15s ease,border-color .15s ease,box-shadow .15s ease;
+    border: 1px solid #d1d1d1 !important;
+    border-radius: 0 !important;
+}
+.text-primary {
+    color: #EE4146!important;
+}
+.btn.btn-primary {
+    color: #fff !important;
+    background-color: #000000!important;
+    border-color: #000000!important;
+    border-radius: 0 !important;
+    min-width: 150px;
+}
+.aside-menu .menu-nav>.menu-section .menu-text {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+}
+.aside-menu .menu-nav>.menu-item>.menu-heading .menu-text, .aside-menu .menu-nav>.menu-item>.menu-link .menu-text {
+    font-weight: 400;
+    font-size: 15px !important;
+    text-transform: none;
+}
+.form-group label {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: #3f4254 !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.6em + 1.3rem + 2px) !important;
+    padding: .95rem 1rem !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    line-height: 1.8;
+    color: #3f4254;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d1d1 !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.dataTables_wrapper .dataTable tfoot th, .dataTables_wrapper .dataTable thead th {
+    font-weight: 700 !important;
+    color: #181c32 !important;
+    background: #F1F1F1 !important;
+}
+.table-bordered, .table-bordered td, .table-bordered th {
+    border: 1px solid #F1F1F1 !important;
+}
+.dataTables_wrapper .dataTables_paginate .pagination .page-item.active>.page-link {
+    background-color: #000 !important;
+}
+@media (min-width: 992px){
+.login.login-1 .login-content .login-form {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px 30px !important;
+    background: #fff !important;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2) !important;
+}
+ @media screen and (min-width:200px) and (max-width:767px) {
+	 .leftside_box { width: 100% !important; }
+	 .leftside_box_inn { padding: 0 !important; }
+}
+    @media screen and (min-width:768px) and (max-width: 1023px) {
+        .leftside_box {
+            width: 350px !important;
+            float: left;
+        }
+		.leftside_box_inn { padding: 0 !important; }
+    }
+@media screen and (min-width:1024px) and (max-width: 1199px) {
+        .leftside_box {
+            width: 350px !important;
+            float: left;
+        }
+	.leftside_box_inn { padding: 0 !important; }
+}
